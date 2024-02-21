@@ -1,0 +1,764 @@
+/* ## Capgemini Technology Services India Proprietary and Confidential ##
+## Copyright Capgemini 2022-2023 - All Rights Reserved ## */
+
+/* Typography */
+.h1 {
+  @apply text-4xl font-extrabold tracking-tighter;
+}
+
+.h2 {
+  @apply text-3xl font-extrabold tracking-tighter;
+}
+
+.h3 {
+  @apply text-3xl font-extrabold;
+}
+
+.h4 {
+  @apply text-2xl font-extrabold tracking-tight;
+}
+
+@screen md {
+  .h1 {
+      @apply text-5xl;
+  }
+
+  .h2 {
+      @apply text-4xl;
+  }
+}
+
+/* Buttons */
+.btn,
+.btn-lg,
+.btn-sm,
+.btn-xs {
+  @apply font-medium text-sm inline-flex items-center justify-center border border-transparent rounded leading-5 shadow-sm transition duration-150 ease-in-out;
+}
+
+.btn {
+  @apply px-3 py-2;
+}
+
+.btn-lg {
+  @apply px-4 py-3;
+}
+
+.btn-sm {
+  @apply px-2 py-1;
+}
+
+.btn-xs {
+  @apply px-2 py-0.5;
+}
+
+/* Forms */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+-webkit-appearance: none;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox,
+.form-radio {
+  @apply text-sm text-slate-800 bg-white border;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select,
+.form-checkbox {
+  @apply rounded;
+}
+
+.form-input,
+.form-textarea,
+.form-multiselect,
+.form-select {
+  @apply leading-5 py-2 px-3 border-slate-200 hover:border-slate-300 focus:border-indigo-300 shadow-sm;
+}
+
+.form-input,
+.form-textarea {
+  @apply placeholder-slate-400;
+}
+
+.form-select {
+  @apply pr-10;
+}
+
+.form-checkbox,
+.form-radio {
+  @apply text-indigo-500 border border-slate-300;
+}
+
+/* Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+display: none;
+}
+
+.no-scrollbar {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.paginationBttns{
+
+  margin-top: 15px;
+  width: 20%;
+  height:28px;
+  display:flex;
+}
+
+/* html{
+scroll-behavior: smooth;
+} */
+
+.paginationBttns a{
+
+  padding: 5px;
+  margin:5px;
+  border-radius: 5px;
+  border:1px solid #c9c9fa;
+  color: #8b8bff;
+  font-size: 12px;
+  cursor:pointer;
+}
+table, th, td {
+
+  border: none;
+
+  border-collapse: collapse;
+
+}
+tbody tr:nth-child(odd) {
+  background-color: #5656ff;
+  background-color: #63cd74 ;       /* #2a416e */
+}
+tbody tr:nth-child(even) {
+  background-color: #a3e1ac;        /* #20304f */
+  
+}
+
+.scrollTable{
+
+  height: 285px;  
+
+  overflow-y: auto;    /* Trigger vertical scroll    */
+
+  overflow-x: auto;  /* Hide the horizontal scroll */
+
+}
+.scrollTable2{
+
+  height: 590px;  
+
+  overflow-y: auto;    /* Trigger vertical scroll    */
+
+  overflow-x: auto;  /* Hide the horizontal scroll */
+
+}
+
+.scrollTable9{
+
+  height: 980px;  
+
+  overflow-y: auto;    /* Trigger vertical scroll    */
+
+  overflow-x: auto;  /* Hide the horizontal scroll */
+
+}
+
+.scrollTable3{
+
+  height: 320px;  
+
+  overflow-y: auto;    /* Trigger vertical scroll    */
+
+  overflow-x: auto;  /* Hide the horizontal scroll */
+
+}
+.scrollTable4{
+
+  height: 220px;  
+  
+  border-radius: 25px;
+  padding: 15px;
+  background-color: #8aec96;
+
+}
+.scrollTable5{
+
+  height: 280px;  
+  
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #8aec96;
+
+}
+.app-timing{
+
+  height: 250px;  
+  
+  border-radius: 25px;
+  padding: 10px;
+
+}
+.scrollTable6{
+
+  height: 720px;  
+
+  overflow-y: auto;    /* Trigger vertical scroll    */
+
+  overflow-x: auto;  /* Hide the horizontal scroll */
+  margin-left: 30%;
+  padding-right: 0px;
+
+}
+.serviceBox {
+
+  margin-left:1%;
+  overflow: hidden;
+  float:left;
+  width:99%;
+  height: 250px;
+  /* background-color: white; */
+  /* border: 1px solid #bdbdbd; */
+  /* -webkit-border-radius: 5px; */
+  /* border-radius: 5px; */
+  /* -moz-box-shadow: 0 0 10px #bdbdbd;
+  -webkit-box-shadow: 0 0 10px #bdbdbd;
+  box-shadow: 0 0 10px #bdbdbd; */
+}
+
+.scrollTable11{
+  background-color: #6f89c5;
+  height: 260px;  
+  color: #fff;
+  border-radius: 20px;
+}
+
+.scrollTable10{
+  background-color: #6f89c5;
+  height: 500px;  
+  
+}
+
+
+/* Weather CSS FOR DISPLAY */
+
+.displayweather {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.displayweather .maincard {
+  width: 300px;
+  height: 200px;
+  margin-top: -10px;
+  align-self: center;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  background: rgb(245, 242, 242);
+  border: 1px solid black;
+}
+
+.displayweather .maincard .cardtitle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5rem;
+}
+
+.displayweather .maincard .cardsubtitle {
+  position: absolute;
+  left: 10px;
+
+  color: grey;
+  margin-top: -8px;
+}
+.displayweather h1 {
+  font-size: 5rem;
+  margin: -10px;
+  margin-left: -150px;
+}
+
+.displayweather .weather-icon {
+  width: 70px;
+  align-items: left;
+  position: absolute;
+  top: 80px;
+}
+
+.displayweather .weather-main {
+  /* position: absolute; */
+  margin-left: 180px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.displayweather .weather-description {
+  position: absolute;
+  left: 10px;
+  font-size: 1.4rem;
+}
+.displayweather .weatherdetails {
+  margin-left: 50px;
+  margin-right: 50px;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+.displayweather .weatherdetails .section1 {
+  justify-self: right;
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+
+/* td {
+  border-bottom: 2px dashed grey;
+} */
+
+.displayweather .weatherdetails span {
+  font-size: 1.2rem;
+}
+.card{
+  display: grid;
+  font-family: 'Courier New', Courier, monospace;
+}
+.points{
+  color: red;
+  font-family: cursive;
+}
+.title-2{
+  font-family: cursive;
+  font-size: 22px;
+}
+.weather-icon{
+  margin-top: 10px;
+  margin-left: 160px;
+  height: 100px;
+  width: 100px;
+  
+}
+
+
+/* Weather Css for WeatherDashboard */
+
+
+.weather {
+  height: 85px;
+  width: 210px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  font-weight: 800;
+  background-image: url("../../images/weatherbnner.png")
+  /* margin-top: 6px; */
+  /* padding-bottom: 50px; */
+  /* width: max-content; */
+  /* margin-left: 25%; */
+}
+.weather .title {
+  font-size: 4rem;
+  display: grid;
+  margin-left: 65px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.weather .getweather {
+  margin-left: 5px;
+  padding: 8px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid black;
+  background: rgb(2, 57, 88, 0.8);
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.weather .btn-location{
+  margin-left: 0px;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid black;
+  background: rgba(8, 143, 53, 0.8);
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.weather .getweather:hover {
+  background: transparent;
+  color: black;
+}
+
+.weather .getweather:focus {
+  outline: none;
+}
+
+a:link {
+  /* text-decoration: underline; */
+  font-weight: 600;
+}
+
+.previoustBttn:hover{
+  background-color: black;
+  color: white;
+  }
+
+.nextBttn:hover{
+    background-color: black;
+    color: white;
+    }
+
+  .paginationActive{
+
+   border: 1.5px solid rgb(66, 126, 255) ;
+   border-radius:20px;
+   /* background-color: black; */
+   color: #fff;
+   
+    
+    
+  }
+
+   .scrollTable8{
+
+    height: 720px;  
+  
+    overflow-y: auto;    /* Trigger vertical scroll    */
+  
+    overflow-x: auto;  /* Hide the horizontal scroll */
+  
+  }
+
+  .scrollTable7{
+    
+  height: 210px;   
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #c7e5ff;
+  /* padding-left:150px; */
+  /* margin-left: e7ebea; */
+  /* margin-right: 120px; */
+  justify-content: center;
+  }
+
+
+  .no-outline:focus {
+    outline: none;
+  }
+
+  input {
+ border-style: hidden;
+    
+  }
+
+/* 
+  .cityForm{
+    height: 220px;  
+  
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #29c0b1;
+  padding-left: 10px;
+  } */
+.form01{
+background-color: transparent;
+}
+
+
+/* .wrapper2 {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 2rem;
+    margin: 0 auto;
+  } */
+
+   main .wrapper2{
+      display: flex;
+      width: 35%;
+      margin: auto;
+      padding: 0.5rem 2.5rem;
+      /* border: 2px solid black; */
+      background-color: #c7d2fe;
+      /* color: #fff; */
+      outline:none;
+      box-shadow: black;
+      border-radius: 0.55rem;
+      /* color: var(--color-black);
+      background: var(--color-white);
+      box-shadow: var(--shadow-large); */
+    }
+
+    div .wrapper3{
+      display: flex;
+      width: 100%;
+      margin: auto;
+      padding: 1.5rem 2rem;
+      /* border: 2px solid black; */
+      /* background-color: #c7d2fe; */
+      /* color: #fff; */
+      outline:none;
+      box-shadow: black;
+      /* border-radius: 0.55rem; */
+      /* color: var(--color-black);
+      background: var(--color-white);
+      box-shadow: var(--shadow-large); */
+    }
+
+    .loginForm{
+			justify-content: center;
+      width: 350px;
+      
+    }
+    .signUpForm{
+			justify-content: center;
+      width: 300px;
+      /* display: flex */
+      
+    }
+
+    .input-control {
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      margin-top: 0.2rem;
+    }
+
+    .input-field {
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: inherit;
+      width: 100%;
+      margin-top: 0.5rem;
+      height: 2.2rem;
+      padding: 0.75rem 1rem;
+      border: 1px solid black;
+      outline: none;
+      border-radius: 1rem;
+      color: var(--color-black);
+      /* background: var(--color-light); */
+      text-transform: unset;
+      text-rendering: optimizeLegibility;
+
+    }
+
+    .input-field2 {
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: inherit;
+      width: 100%;
+      margin-top: 1rem;
+      height:2rem;
+      padding: 0.75rem 1rem;
+      border: 1px solid rgb(180, 177, 177);
+      outline: none;
+      border-radius: 0.3rem;
+      color: var(--color-black);
+      /* background: var(--color-light); */
+      text-transform: unset;
+      text-rendering: optimizeLegibility;
+
+    }
+
+    .input-submit {
+      font-family: inherit;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: inherit;
+      cursor: pointer;
+      min-width: 30%;
+      height: auto;
+      padding: 0.65rem 1.25rem;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: var(--color-white);
+      background: var(--color-blue);
+      box-shadow: var(--shadow-medium);
+      text-transform: capitalize;
+      text-rendering: optimizeLegibility;
+    }
+
+    .forgotPass{
+      font-size: 0.85rem;
+      margin-left: 20px;
+      color: #0000ff;
+      text-decoration: underline;
+    }
+
+    .forgotPass:hover{
+
+      color: #444dff;
+      font-size: 14.5px;
+    }
+
+    .welbanner{
+      width: 75%;
+      background-image: url("../../images/bnnr.png");
+    }
+
+    .blink {
+      animation: blink-animation 1s steps(5, start) infinite;
+      -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    }
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+    @-webkit-keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+
+    .my-custom-prefix .rs-picker-toggle {
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      color: #333;
+      font-size: 16px;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 10px;
+    }
+    .my-custom-prefix .rs-calendar-table-cell-selected .rs-calendar-table-cell-content {
+      background-color: #007bff;
+      color: #fff;
+    }
+    .my-custom-prefix .rs-calendar-header-toolbar .rs-calendar-header-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    @keyframes shake {
+      0% { transform: rotate(0deg); }
+      10% { transform: rotate(10deg); }
+      20% { transform: rotate(-10deg); }
+      30% { transform: rotate(10deg); }
+      40% { transform: rotate(-10deg); }
+      50% { transform: rotate(10deg); }
+      60% { transform: rotate(-10deg); }
+      70% { transform: rotate(10deg); }
+      80% { transform: rotate(-10deg); }
+      90% { transform: rotate(10deg); }
+      100% { transform: rotate(0deg); }
+    }
+    
+    .shake-rotate {
+      animation: shake 0.9s;
+      animation-iteration-count: 1;
+    }
+
+    .tooltip-container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .tooltip-container .tooltip {
+      position: absolute;
+      top: -30px; /* Adjust the value as per your requirement */
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      z-index: 9999;
+    }
+    
+    .tooltip-container:hover .tooltip {
+      opacity: 1;
+    }
+    
+    /* .outgoing-message {
+      text-align: right;
+    }
+    
+    .incoming-message {
+      text-align: left;
+    } */
+    
+    .chat-messages-container {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .chat-message-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+    }
+    
+    .outgoing {
+      justify-content: flex-end;
+    }
+    
+    .chat-message-box {
+      width: auto;
+      padding: 4px 5px 0px 8px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: #e2f0ff;
+    }
+    
+    .incoming-message {
+      margin-right: auto;
+      background-color: #f0ecec;
+    }
+    
+    .outgoing-message {
+      margin-left: auto;
+      background-color: #d9ffd9;
+    }
+    
+    .reactions-panel {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.5rem;
+    }
+    
+    .reaction-icon {
+      cursor: pointer;
+      margin-right: 0.5rem;
+    }
+    
+    .reactions-actions {
+      display: flex;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+    
+    .reactions-count {
+      margin-left: 0.25rem;
+    }
+    

@@ -1,0 +1,46 @@
+/* ## Capgemini Technology Services India Proprietary and Confidential ##
+## Copyright Capgemini 2022-2023 - All Rights Reserved ## */
+
+/* login-form.css */
+.amplify-form-body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .amplify-form-header {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .amplify-form-input {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .amplify-form-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .amplify-form-submit {
+    background-color: #333;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .amplify-form-submit:hover {
+    background-color: #555;
+  }
+  

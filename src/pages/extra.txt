@@ -1,0 +1,304 @@
+        <div className="sm:flex p-2 sm:justify-between sm:items-center mt-5">
+
+            <div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
+                {/* Filter button */}
+                {/* <FilterButton /> */}
+                {/* Datepicker built with flatpickr */}
+                
+                <span><label style={{fontWeight:"bold", fontSize:'20px'}}>Logback Statistics </label>
+                {/* <ApplicationDropdown/> */}
+                 &nbsp;
+             
+  </span>   
+  <div className='inline-block absolute right-10 w-51'>
+                {/* <Link  to="/deliverydashboard" >
+                  <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800 m-1">  
+                       <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg> 
+                        <span>Prev</span>
+                  </button> 
+               </Link> */}
+               {/* <Link to="/httpstats">
+                  <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800"> 
+                        <span>Next</span>
+                       <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+                  </button>
+                </Link> */}
+                </div>
+                {/* <Datepicker /> */}
+                {/* Add view button */}
+                {/* <Link to="/">
+                <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white" >
+                
+                    <span className="hidden xs:block ml-2"> Previous Page</span>
+                </button></Link> <br></br> */}
+                           
+              </div>
+
+            </div>
+
+            {/* Cards */}
+            <div className="grid grid-cols-12 gap-3">
+            {/* <ApiWidget01/> */}
+
+              {/* Line chart (Acme Plus) */}
+              {/* <DashboardCard01 /> */}
+              {/* Line chart (Acme Advanced) */}
+              {/* <DashboardCard02 /> */}
+              {/* Line chart (Acme Professional) */}
+              {/* <DashboardCard03 /> */}
+              {/* Bar chart (Direct vs Indirect) */}
+              {/* <DashboardCard04 /> */}
+              {/* Line chart (Real Time Value) */}
+              {/* <DashboardCard05 /> */}
+
+           
+              <MetricsDashboard50/>
+      
+              {/* <MetricsDashboard12/>
+              <MetricsDashboard13/>
+              <MetricsDashboard14/> */}
+
+              
+              
+
+             
+           
+              {/* Card (Reasons for Refunds) */}
+              {/* <DashboardCard11 /> */}
+              {/* Card (Recent Activity) */}
+              {/* <DashboardCard12 /> */}
+              {/* Card (Income/Expenses) */}
+              {/* <DashboardCard13 /> */}
+        </div>
+ 
+
+        <div className="sm:flex p-2 sm:justify-between sm:items-center mt-5">
+
+<div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
+    {/* Filter button */}
+    {/* <FilterButton /> */}
+    {/* Datepicker built with flatpickr */}
+    
+    <span><label style={{fontWeight:"bold", fontSize:'20px'}}>JVM Statistics - Memory </label>
+    {/* <ApplicationDropdown/> */}
+     &nbsp;
+ 
+</span>   
+<div className='inline-block absolute right-10 w-51'>
+    {/* <Link  to="/deliverydashboard" >
+      <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800 m-1">  
+           <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg> 
+            <span>Prev</span>
+      </button> 
+   </Link> */}
+   {/* <Link to="/httpstats">
+      <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800"> 
+            <span>Next</span>
+           <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+      </button>
+    </Link> */}
+    </div>
+    {/* <Datepicker /> */}
+    {/* Add view button */}
+    {/* <Link to="/">
+    <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white" >
+    
+        <span className="hidden xs:block ml-2"> Previous Page</span>
+    </button></Link> <br></br> */}
+               
+  </div>
+
+</div>
+
+{/* Cards */}
+<div className="grid grid-cols-12 gap-3">
+{/* <ApiWidget01/> */}
+
+  {/* Line chart (Acme Plus) */}
+  {/* <DashboardCard01 /> */}
+  {/* Line chart (Acme Advanced) */}
+  {/* <DashboardCard02 /> */}
+  {/* Line chart (Acme Professional) */}
+  {/* <DashboardCard03 /> */}
+  {/* Bar chart (Direct vs Indirect) */}
+  {/* <DashboardCard04 /> */}
+  {/* Line chart (Real Time Value) */}
+  {/* <DashboardCard05 /> */}
+
+
+  <MetricsDashboard31/>
+  <MetricsDashboard32/>
+  <MetricsDashboard33/>
+  <MetricsDashboard34/>
+  <MetricsDashboard36/>
+  <MetricsDashboard35/>
+
+  {/* <MetricsDashboard12/>
+  <MetricsDashboard13/>
+  <MetricsDashboard14/> */}
+
+  
+  
+
+ 
+
+  {/* Card (Reasons for Refunds) */}
+  {/* <DashboardCard11 /> */}
+  {/* Card (Recent Activity) */}
+  {/* <DashboardCard12 /> */}
+  {/* Card (Income/Expenses) */}
+  {/* <DashboardCard13 /> */}
+</div>
+
+
+<div className="sm:flex p-2 sm:justify-between sm:items-center mt-5">
+
+<div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
+    {/* Filter button */}
+    {/* <FilterButton /> */}
+    {/* Datepicker built with flatpickr */}
+    
+    <span><label style={{fontWeight:"bold", fontSize:'20px'}}>JVM Statistics - GC </label>
+    {/* <ApplicationDropdown/> */}
+     &nbsp;
+ 
+</span>   
+<div className='inline-block absolute right-10 w-51'>
+    {/* <Link  to="/deliverydashboard" >
+      <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800 m-1">  
+           <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg> 
+            <span>Prev</span>
+      </button> 
+   </Link> */}
+   {/* <Link to="/httpstats">
+      <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800"> 
+            <span>Next</span>
+           <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+      </button>
+    </Link> */}
+    </div>
+    {/* <Datepicker /> */}
+    {/* Add view button */}
+    {/* <Link to="/">
+    <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white" >
+    
+        <span className="hidden xs:block ml-2"> Previous Page</span>
+    </button></Link> <br></br> */}
+               
+  </div>
+
+</div>
+
+{/* Cards */}
+<div className="grid grid-cols-12 gap-3">
+{/* <ApiWidget01/> */}
+
+  {/* Line chart (Acme Plus) */}
+  {/* <DashboardCard01 /> */}
+  {/* Line chart (Acme Advanced) */}
+  {/* <DashboardCard02 /> */}
+  {/* Line chart (Acme Professional) */}
+  {/* <DashboardCard03 /> */}
+  {/* Bar chart (Direct vs Indirect) */}
+  {/* <DashboardCard04 /> */}
+  {/* Line chart (Real Time Value) */}
+  {/* <DashboardCard05 /> */}
+
+
+ <MetricsDashboard37/>
+ <MetricsDashboard38/>
+ <MetricsDashboard39/>
+ 
+
+  {/* <MetricsDashboard12/>
+  <MetricsDashboard13/>
+  <MetricsDashboard14/> */}
+
+  
+  
+
+ 
+
+  {/* Card (Reasons for Refunds) */}
+  {/* <DashboardCard11 /> */}
+  {/* Card (Recent Activity) */}
+  {/* <DashboardCard12 /> */}
+  {/* Card (Income/Expenses) */}
+  {/* <DashboardCard13 /> */}
+</div>
+
+<div className="sm:flex p-2 sm:justify-between sm:items-center mt-5">
+
+<div className="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2">
+    {/* Filter button */}
+    {/* <FilterButton /> */}
+    {/* Datepicker built with flatpickr */}
+    
+    <span><label style={{fontWeight:"bold", fontSize:'20px'}}>HikariCP Statistics </label>
+    {/* <ApplicationDropdown/> */}
+     &nbsp;
+ 
+</span>   
+<div className='inline-block absolute right-10 w-51'>
+    {/* <Link  to="/deliverydashboard" >
+      <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800 m-1">  
+           <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg> 
+            <span>Prev</span>
+      </button> 
+   </Link> */}
+   {/* <Link to="/httpstats">
+      <button type="button" class="text-gray-700 border border-gray-700 hover:bg-gray-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:border-gray-500 dark:text-gray-500 dark:hover:text-white dark:focus:ring-gray-800"> 
+            <span>Next</span>
+           <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+      </button>
+    </Link> */}
+    </div>
+    {/* <Datepicker /> */}
+    {/* Add view button */}
+    {/* <Link to="/">
+    <button className="btn bg-indigo-500 hover:bg-indigo-600 text-white" >
+    
+        <span className="hidden xs:block ml-2"> Previous Page</span>
+    </button></Link> <br></br> */}
+               
+  </div>
+
+</div>
+
+{/* Cards */}
+<div className="grid grid-cols-12 gap-3">
+{/* <ApiWidget01/> */}
+
+  {/* Line chart (Acme Plus) */}
+  {/* <DashboardCard01 /> */}
+  {/* Line chart (Acme Advanced) */}
+  {/* <DashboardCard02 /> */}
+  {/* Line chart (Acme Professional) */}
+  {/* <DashboardCard03 /> */}
+  {/* Bar chart (Direct vs Indirect) */}
+  {/* <DashboardCard04 /> */}
+  {/* Line chart (Real Time Value) */}
+  {/* <DashboardCard05 /> */}
+
+
+<MetricsDashboard40/>
+<MetricsDashboard51/>
+<MetricsDashboard52/>
+ 
+
+  {/* <MetricsDashboard12/>
+  <MetricsDashboard13/>
+  <MetricsDashboard14/> */}
+
+  
+  
+
+ 
+
+  {/* Card (Reasons for Refunds) */}
+  {/* <DashboardCard11 /> */}
+  {/* Card (Recent Activity) */}
+  {/* <DashboardCard12 /> */}
+  {/* Card (Income/Expenses) */}
+  {/* <DashboardCard13 /> */}
+</div>

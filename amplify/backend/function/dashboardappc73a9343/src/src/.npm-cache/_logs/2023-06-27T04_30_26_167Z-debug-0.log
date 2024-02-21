@@ -1,0 +1,70 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\vivpawar\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.7.1
+2 info using node@v16.18.0
+3 timing npm:load:whichnode Completed in 5ms
+4 timing config:load:defaults Completed in 8ms
+5 timing config:load:file:C:\Users\vivpawar\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 warn config production Use `--omit=dev` instead.
+8 timing config:load:cli Completed in 5ms
+9 timing config:load:env Completed in 1ms
+10 timing config:load:file:C:\Users\vivpawar\Downloads\frontendMain\amplify\backend\function\dashboardappc73a9343\src\.npmrc Completed in 1ms
+11 timing config:load:project Completed in 9ms
+12 timing config:load:file:C:\Users\vivpawar\.npmrc Completed in 2ms
+13 timing config:load:user Completed in 2ms
+14 timing config:load:file:C:\Users\vivpawar\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+15 timing config:load:global Completed in 0ms
+16 timing config:load:setEnvs Completed in 2ms
+17 timing config:load Completed in 32ms
+18 timing npm:load:configload Completed in 32ms
+19 timing config:load:flatten Completed in 6ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install
+23 verbose argv "install" "--no-bin-links" "--production"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing npm:load:display Completed in 3ms
+26 verbose logfile logs-max:10 dir:C:\Users\vivpawar\Downloads\frontendMain\amplify\backend\function\dashboardappc73a9343\src\src\.npm-cache\_logs\2023-06-27T04_30_26_167Z-
+27 verbose logfile C:\Users\vivpawar\Downloads\frontendMain\amplify\backend\function\dashboardappc73a9343\src\src\.npm-cache\_logs\2023-06-27T04_30_26_167Z-debug-0.log
+28 timing npm:load:logFile Completed in 24ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 131ms
+32 timing arborist:ctor Completed in 1ms
+33 timing idealTree:init Completed in 34ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 1ms
+37 timing idealTree:buildDeps Completed in 2ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 timing idealTree Completed in 40ms
+40 silly logfile done cleaning log files
+41 timing arborist:ctor Completed in 0ms
+42 timing reify:loadTrees Completed in 53ms
+43 timing reify:diffTrees Completed in 1ms
+44 silly reify moves {}
+45 timing reify:retireShallow Completed in 2ms
+46 timing reify:createSparse Completed in 4ms
+47 silly reify mark deleted [
+47 silly reify   'C:\\Users\\vivpawar\\Downloads\\frontendMain\\amplify\\backend\\function\\dashboardappc73a9343\\src\\node_modules\\@types\\aws-lambda'
+47 silly reify ]
+48 timing reify:trashOmits Completed in 2ms
+49 timing reify:loadBundles Completed in 0ms
+50 silly audit bulk request {}
+51 timing auditReport:getReport Completed in 0ms
+52 silly audit report null
+53 timing reify:audit Completed in 2ms
+54 timing reify:unpack Completed in 1ms
+55 timing reify:unretire Completed in 0ms
+56 timing build:queue Completed in 0ms
+57 timing build:deps Completed in 1ms
+58 timing build Completed in 1ms
+59 timing reify:build Completed in 1ms
+60 timing reify:trash Completed in 2ms
+61 timing reify:save Completed in 7ms
+62 timing reify Completed in 142ms
+63 silly ADD
+64 timing command:install Completed in 162ms
+65 verbose exit 0
+66 timing npm Completed in 1463ms
+67 info ok

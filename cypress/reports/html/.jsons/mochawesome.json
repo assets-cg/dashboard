@@ -1,0 +1,191 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 4,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-05-23T09:49:11.431Z",
+    "end": "2023-05-23T09:50:58.385Z",
+    "duration": 106954,
+    "testsRegistered": 5,
+    "passPercent": 80,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "88967d18-169b-4418-8cf8-621464857100",
+      "title": "",
+      "fullFile": "cypress\\e2e\\businessOwnerTest.cy.js",
+      "file": "cypress\\e2e\\businessOwnerTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "34adc1ff-32f2-4884-852e-841025cae525",
+          "title": "Business Owner Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Business Owner Dashboard Header Check Test",
+              "fullTitle": "Business Owner Test Business Owner Dashboard Header Check Test",
+              "timedOut": null,
+              "duration": 20984,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress\\\\e2e\\\\businessOwnerTest.cy.js\"\n}",
+              "code": "cy.viewport(1920, 1080);\ncy.visit('http://localhost:5173');\n//Login\ncy.get('input[type=\"email\"]').type('vedant-pravin.yerpude@capgemini.com');\ncy.get('input[type=\"password\"]').type('Pass@1234');\n// Click the login button \ncy.get('button[type=\"submit\"]').click();\ncy.wait(10000);\ncy.get('h2.getHeading').contains('Business_Owner').should('exist');",
+              "err": {},
+              "uuid": "faec4be5-8f6f-4937-9637-8d267905054b",
+              "parentUUID": "34adc1ff-32f2-4884-852e-841025cae525",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Defect By Type Test",
+              "fullTitle": "Business Owner Test Defect By Type Test",
+              "timedOut": null,
+              "duration": 15236,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress\\\\e2e\\\\businessOwnerTest.cy.js\"\n}",
+              "code": "cy.viewport(1920, 1080);\ncy.visit('http://localhost:5173');\n// Login\ncy.get('input[type=\"email\"]').type('vedant-pravin.yerpude@capgemini.com');\ncy.get('input[type=\"password\"]').type('Pass@1234');\n// Click the login button\ncy.get('button[type=\"submit\"]').click();\ncy.wait(10000);\n// Verify pie diagram legends \ncy.get('.defectbytype').should('exist').within(() => {\n  cy.contains('Performance Error').should('exist');\n  // Adjust 'Legend1' to match the expected legend text\n  cy.contains('Security').should('exist');\n  // Adjust 'Legend2' to match the expected legend text \n  cy.contains('Functionality Error').should('exist');\n  // Adjust 'Legend3' to match the expected legend text \n});",
+              "err": {},
+              "uuid": "04995c39-70f6-4819-aec9-4ee68e184d3c",
+              "parentUUID": "34adc1ff-32f2-4884-852e-841025cae525",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Access Denied Test",
+              "fullTitle": "Business Owner Test Access Denied Test",
+              "timedOut": null,
+              "duration": 14684,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress\\\\e2e\\\\businessOwnerTest.cy.js\"\n}",
+              "code": "cy.viewport(1920, 1080);\ncy.visit('http://localhost:5173');\n// Login\ncy.get('input[type=\"email\"]').type('vedant-pravin.yerpude@capgemini.com');\ncy.get('input[type=\"password\"]').type('Pass@1234');\n// Click the login button\ncy.get('button[type=\"submit\"]').click();\ncy.wait(10000);\n// Click on the \"Program Manager\" option\ncy.get('.admindash').click();\n// Verify the \"Access Denied\" message on the next page\ncy.contains('Access to this page is restricted').should('exist');",
+              "err": {},
+              "uuid": "b119f705-8a20-42d0-921d-4993b8106dcd",
+              "parentUUID": "34adc1ff-32f2-4884-852e-841025cae525",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Project and Board Table Test",
+              "fullTitle": "Business Owner Test Project and Board Table Test",
+              "timedOut": null,
+              "duration": 25135,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress\\\\e2e\\\\businessOwnerTest.cy.js\"\n}",
+              "code": "cy.viewport(1920, 1080);\ncy.visit('http://localhost:5173');\n// Login\ncy.get('input[type=\"email\"]').type('vedant-pravin.yerpude@capgemini.com');\ncy.get('input[type=\"password\"]').type('Pass@1234');\n// Click the login button\ncy.get('button[type=\"submit\"]').click();\ncy.wait(10000);\n// Check for the table with specified column names\ncy.get('table.projecttable') // Adjust the selector to match your table element\n.should('exist').within(() => {\n  cy.contains('Project Id').should('exist'); // Adjust 'Column1' to match the expected column name\n  cy.contains('Project Name').should('exist'); // Adjust 'Column2' to match the expected column name\n  cy.contains('Project Status').should('exist'); // Adjust 'Column3' to match the expected column name\n  // Add more assertions for other column names if needed\n});\n// Click on the first row of the specified column\ncy.get('.getboards').click();\n// Verify the condition for the specified column names in the loaded table\ncy.get('table.boardtable') // Adjust the selector to match the loaded table element\n.should('exist').within(() => {\n  cy.contains('Board Id').should('exist'); // Adjust 'Column1Data' to match the expected data in the specified column\n  cy.contains('Board Name').should('exist'); // Adjust 'Column2Data' to match the expected data in the specified column\n  cy.contains('Project Name').should('exist');\n  cy.contains('Board Type').should('exist'); // Adjust 'Column3Data' to match the expected data in the specified column\n  // Add more assertions for other data in the specified columns if needed\n  cy.wait(10000);\n});",
+              "err": {},
+              "uuid": "a47a781b-29f1-44a9-ba86-884b305abcc9",
+              "parentUUID": "34adc1ff-32f2-4884-852e-841025cae525",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should check if the bar chart is visible",
+              "fullTitle": "Business Owner Test Should check if the bar chart is visible",
+              "timedOut": null,
+              "duration": 27536,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-videos\",\n    \"value\": \"cypress\\\\e2e\\\\businessOwnerTest.cy.js\"\n  },\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        {\n          \"title\": \"Screenshot\",\n          \"value\": \"C:\\\\Users\\\\vivpawar\\\\Downloads\\\\frontend (1)\\\\cypress\\\\snapshots\\\\businessOwnerTest.cy.js\\\\__diff_output__\\\\pieChart.diff.png\"\n        },\n        {\n          \"title\": \"Failed screenshot\",\n          \"value\": \"\\\\businessOwnerTest.cy.js\\\\Business Owner Test -- Should check if the bar chart is visible (failed).png\"\n        }\n      ]\n    ]\n  }\n]",
+              "code": "cy.viewport(1920, 1080);\ncy.visit('http://localhost:5173');\n// cy.eyesOpen({\n//   appName: 'businessOwnerTest',\n//   batchName: 'Bar-chart'\n// });\n// Login\ncy.get('input[type=\"email\"]').type('vedant-pravin.yerpude@capgemini.com');\ncy.get('input[type=\"password\"]').type('Pass@1234');\n// Click the login button\ncy.get('button[type=\"submit\"]').click();\ncy.wait(10000);\n// Assuming the bar chart has a specific identifier or class name, use it to select the chart element\ncy.get('.defectbytype') // Replace '.bar-chart' with the actual selector for the bar chart element\n.should('be.visible');\n// .then((chartElement) => {\n//   cy.eyesCheckWindow({\n//     tag: 'Bar Chart',\n//     target: 'region',\n//     selector: chartElement,\n//   });\n// });\ncy.wait(10000);\ncy.get('.defectbytype').matchImageSnapshot('pieChart');",
+              "err": {
+                "message": "Error: Image size (103x303) different than saved snapshot size (69x202).\nSee diff for details: C:\\Users\\vivpawar\\Downloads\\frontend (1)\\cypress\\snapshots\\businessOwnerTest.cy.js\\__diff_output__\\pieChart.diff.png",
+                "estack": "Error: Image size (103x303) different than saved snapshot size (69x202).\nSee diff for details: C:\\Users\\vivpawar\\Downloads\\frontend (1)\\cypress\\snapshots\\businessOwnerTest.cy.js\\__diff_output__\\pieChart.diff.png\n    at Context.eval (webpack:///./node_modules/cypress-image-snapshot/command.js:51:0)",
+                "diff": null
+              },
+              "uuid": "7429ebe8-f73d-4597-9d4e-ebe1c38807d5",
+              "parentUUID": "34adc1ff-32f2-4884-852e-841025cae525",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "faec4be5-8f6f-4937-9637-8d267905054b",
+            "04995c39-70f6-4819-aec9-4ee68e184d3c",
+            "b119f705-8a20-42d0-921d-4993b8106dcd",
+            "a47a781b-29f1-44a9-ba86-884b305abcc9"
+          ],
+          "failures": [
+            "7429ebe8-f73d-4597-9d4e-ebe1c38807d5"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 103575,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "demo-test-report",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

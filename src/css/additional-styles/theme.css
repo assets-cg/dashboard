@@ -1,0 +1,11 @@
+/* ## Capgemini Technology Services India Proprietary and Confidential ##
+## Copyright Capgemini 2022-2023 - All Rights Reserved ## */
+
+.form-input:focus,
+.form-textarea:focus,
+.form-multiselect:focus,
+.form-select:focus,
+.form-checkbox:focus,
+.form-radio:focus {
+    @apply ring-0;
+}
